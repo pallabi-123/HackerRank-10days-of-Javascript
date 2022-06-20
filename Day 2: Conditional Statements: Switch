@@ -16,12 +16,9 @@ function getLetter(s) {
         letter = 'C';
         break;
         
-        case ('n' || 'p' || 'q' || 'r' || 's'):
-        letter = 'D';
-        break;
-        
+       
           default:
-                letter = 'E';
+                letter = 'D';
                 break;
     }
     return letter;
